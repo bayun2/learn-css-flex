@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <title>flex方向</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/flex-custom.css">
+    <style>
+      /*.wraper {
+        display: flex;
+      }
+      .item {
+        flex:1;
+        text-align: center;
+        font-size: 24px;
+        background: #059;
+      }
+      .column {
+        flex-direction: column;
+      }
+      .column-reverse {
+        flex-direction: column-reverse;;
+      }
+      .row {
+        flex-direction: row;
+      }
+      .row-reverse {
+        flex-direction: row-reverse;;
+      }*/
+      .item {
+        text-align: center;
+        font-size: 24px;
+        background: #059;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>column</h3>
+    <div class="mui-flex vertical">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+    </div>
+    <h3>column-reverse</h3>
+    <div class="mui-flex vertical reverse">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+    </div>
+    <h3>row</h3>
+    <div class="mui-flex horizental">
+      <div class="cell item">1</div>
+      <div class="cell item">2</div>
+      <div class="cell item">3</div>
+      <div class="cell item">4</div>
+    </div>
+    <h3>row-reverse</h3>
+    <div class="mui-flex horizental reverse">
+      <div class="cell item">1</div>
+      <div class="cell item">2</div>
+      <div class="cell item">3</div>
+      <div class="cell item">4</div>
+    </div>
+  </body>
+</html>

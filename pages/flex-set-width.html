@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <title>一列宽定死</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/flex-custom.css">
+    <style>
+      /*.wraper {
+        display: flex;
+      }
+      .item {
+        text-align: center;
+        font-size: 24px;
+      }
+      .left {
+        width:100px;
+        background: #059;
+      }
+      .right {
+        flex:1;
+        background: green;
+      }*/
+      .wraper .cell.left {
+        width:100px;
+        background: #059;
+      }
+      .right {
+        background: green;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="mui-flex wraper">
+      <div class="cell fixed left">1</div>
+      <div class="cell right">2</div>
+    </div>
+  </body>
+</html>
